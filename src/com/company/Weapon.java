@@ -19,6 +19,4 @@ public class Weapon {
     public void setNameweapon(String nameweapon) {
         Nameweapon = nameweapon;
     }
-
-    public static void info (){};
 }

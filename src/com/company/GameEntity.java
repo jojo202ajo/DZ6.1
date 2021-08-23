@@ -1,23 +1,25 @@
 package com.company;
 
 public class GameEntity {
-
-    private int heals ;
-    private int damage ;
+    public int Heals;
+    public int Damage;
 
     public int getHeals() {
-        return heals;
+        return Heals;
     }
 
     public void setHeals(int heals) {
-        this.heals = heals;
+        Heals = heals;
     }
 
     public int getDamage() {
-        return damage;
+        return Damage;
     }
 
     public void setDamage(int damage) {
-        this.damage = damage;
+        Damage = damage;
+    }
+    public String info(){
+        return " boss heals " + Heals +" bossdamage  "+ Damage;
     }
 }
